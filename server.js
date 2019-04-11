@@ -3,7 +3,7 @@ const morgan = require("morgan");
 const helmet = require("helmet");
 const cors = require("cors");
 require("dotenv").config();
-const POKEDEX = require("./pokedex.json.js");
+const POKEDEX = require("./pokedex.json");
 
 const app = express();
 
